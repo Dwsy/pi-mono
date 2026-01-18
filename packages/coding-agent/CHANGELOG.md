@@ -1,5 +1,15 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+
+- Added TabBar component to pi-tui for tab-based navigation
+- Added provider tabs to the model selector with ALL, RECENT, and per-provider filtering. Use Tab/←/→ keys to switch tabs when searching is empty. The RECENT tab shows the last 10 used models sorted by recency.
+- Added provider tabs to scoped model selector with ALL and per-provider filtering
+- Added `enableModelProviderTabs` setting to toggle provider tabs in selectors (default: false)
+- Added recent model tracking with URL encoding for provider/model IDs. Models are automatically added to the recent list when selected and limited to 10 unique entries.
+
 ## [0.49.0] - 2026-01-17
 
 ### Added

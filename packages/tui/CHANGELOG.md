@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+
+- Added TabBar component for tab-based navigation with keyboard support (Tab/Shift+Tab/Arrow keys)
+
 ## [0.49.0] - 2026-01-17
 
 ### Added
